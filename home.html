@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>af notes</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src=  "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">   </script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Sofia|Cedarville Cursive|Marck Script|Merienda One|Vast Shadow|Work Sans|Niconne|Pacifico|Kaushan Script|Capriola|Source Code Pro">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            .navbar-nav > li{
+                padding-left:5px;
+                padding-right:5px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MENU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <button class="btn btn-warning" onclick="toggleDiv(1)">Home <span class="sr-only"></span></button>
+        </li>
+        <li class="nav-item">
+            <button class="btn btn-info" onclick="toggleDiv(2)">COUNTRIES AND CAPITALS</button>
+        </li>
+        <li class="nav-item">
+            <button class="btn btn-success" onclick="toggleDiv(3)">SPORTS</button>
+        </li>
+        
+        </ul>
+        </div>
+        </nav>
+ 
+
+        <div style="display: block" id="home-div">Home</div>
+
+        <div style="display: none" id="countries-div">
+            <br>
+            <h2><u>COUNTRIES AND CAPITALS</u></h2>
+            <table>
+                <tr>
+                    <th>Countries</th><th>Capitals</th>
+                </tr>
+                <tr>
+                    <td>India</td><td>New Delhi</td></tr>
+                    <tr><td>Afganistan</td><td>kabul</td></tr>
+                    <tr><td>Albania</td><td>tirana</td></tr>
+                    <tr><td>Algeria</td><td>algiers</td></tr>
+                    <tr><td>Argentina</td><td>buenos aires</td></tr>
+                    <tr><td>australia</td><td>canberra</td></tr>
+                    <tr><td>austria</td><td>vienna</td></tr>
+                    <tr><td>azerbaijan</td><td>baku</td></tr>
+                    <tr><td>bahrain</td><td>manama</td></tr>
+                    <tr><td>belgium</td><td>brussels</td>
+                    <tr><td>bhutan</td><td>thimphu</td>
+                    <tr><td>bolivia</td><td>sucre</td>
+                    <tr><td>brazil</td><td>brasilia</td>
+                    <tr><td>bulgaria</td><td>sofia</td>
+                    <tr><td>cambodia</td><td>bogota</td>
+                    <tr><td>croatia</td><td>zagreb</td>
+                    <tr><td>cuba</td><td>havana</td>
+                    <tr><td>denmark</td><td>copenhagen</td>
+                    <tr><td>egypt</td><td>cairo</td>
+                    <tr><td>ethopia</td><td>addis ababa</td>
+                    <tr><td>fiji</td><td>suva</td>
+                    <tr><td>finland</td><td>helsinki</td>
+                    <tr><td>georgia</td><td>tbilisi</td>
+                    <tr><td>germany</td><td>berlin</td>
+                    <tr><td>ghana</td><td>accra</td></tr>
+                    <tr><td>greece</td><td>athens</td></tr>
+                    <tr><td>hungary</td><td>budapest</td></tr>
+                    <tr><td>indonesia</td><td>jakarta</td></tr>
+                    <tr><td>iran</td><td>tehran</td></tr>
+                    <tr><td>iraq</td><td>baghdad</td></tr>
+                    <tr><td>ireland</td><td>dublin</td></tr>
+                    <tr><td>italy</td><td>rome</td></tr>
+                    <tr><td>japan</td><td>tokyo</td></tr>
+                    <tr><td>jordan</td><td>amman</td></tr>
+                    <tr><td>kenya</td><td>nairobi</td></tr>
+                    <tr><td>kosovo</td><td>pristina</td></tr>
+                    <tr><td>kuwait</td><td>kuwait city</td></tr>
+                    <tr><td>laos</td><td>vientiane</td></tr>
+                    <tr><td>lebanon</td><td>beirut</td></tr>
+                    <tr><td>liberia</td><td>monrovia</td></tr>
+                    <tr><td>libya</td><td>tripoli</td></tr>
+                    <tr><td>lithuania</td><td>vilnuis</td></tr>
+                    <tr><td>luxembourg</td><td>luxembourg</td></tr>
+                    <tr><td>MADAGASCAR</td><td>ANTANANARIVO</td></tr>
+                    <tr><td>malaysia</td><td>kuala lumpur</td></tr>
+                    <tr><td>maldives</td><td>male</td></tr>
+                    <tr><td>mauritius</td><td>port louis</td></tr>
+                    <tr><td>mexico</td><td>mexico city</td></tr>
+                    <tr><td>mongolia</td><td>ulaanbaatar</td></tr>
+                    <tr><td>morocco</td><td>rabat</td></tr>
+                    <tr><td>namibia</td><td>windhoek</td></tr>
+                    <tr><td>nepal</td><td>kathmandu</td></tr>
+                    <tr><td>netherlands</td><td>amsterdam</td></tr>
+                    <tr><td>new zealand</td><td>wellington</td></tr>
+                    <tr><td>niger</td><td>niamey</td></tr>
+                    <tr><td>nigeria</td><td>abuja</td></tr>
+                    <tr><td>north korea</td><td>pyongyang</td></tr>
+                    <tr><td>norway</td><td>oslo</td></tr>
+                    <tr><td>oman</td><td>muscat</td></tr>
+                    <tr><td>pakistan</td><td>islamabad</td></tr>
+                    <tr><td>panama</td><td>panama city</td></tr>
+                    <tr><td>paraguay</td><td>asuncion</td></tr>
+                    <tr><td>peru</td><td>lima</td></tr>
+                    <tr><td>philippines</td><td>manila</td></tr>
+                    <tr><td>poland</td><td>warsaw</td></tr>
+                    <tr><td>portugal</td><td>lisbon</td></tr>
+                    <tr><td>qatar</td><td>doha</td></tr>
+                    <tr><td>romania</td><td>bucharest</td></tr>
+                    <tr><td>russia</td><td>moscow</td></tr>
+                    <tr><td>rawanda</td><td>kigali</td></tr>
+                    <tr><td>saudi arabia</td><td>riyadh</td></tr>
+                    <tr><td>serbia</td><td>belgrade</td></tr>
+                    <tr><td>singapore</td><td>singapore</td></tr>
+                    <tr><td>south africa</td><td>capetown</td></tr>
+                    <tr><td>south korea</td><td>seoul</td></tr>
+                    <tr><td>spain</td><td>madrid</td></tr>
+                    <tr><td>south sudan</td><td>juba</td></tr>
+                    <tr><td>sri lanka</td><td>colombo</td></tr>
+                    <tr><td>sudan</td><td>khartoum</td></tr>
+                    <tr><td>sweden</td><td>stockholm</td></tr>
+                    <tr><td>switzerland</td><td>bern</td></tr>
+                    <tr><td>syria</td><td>damascus</td></tr>
+                    <tr><td>tajikistan</td><td>dushanbe</td></tr>
+                    <tr><td>tanzania</td><td>dodoma</td></tr>
+                    <tr><td>thailand</td><td>bankok</td></tr>
+                    <tr><td>togo</td><td>lome</td></tr>
+                    <tr><td>tunisia</td><td>tunis</td></tr>
+                    <tr><td>uganda</td><td></td></tr>
+                    <tr><td>united kingdom</td><td>london</td></tr>
+                    <tr><td>uzbekistan</td><td>tahkent</td></tr>
+                    <tr><td>vatican city</td><td>vatican city</td></tr>
+                    <tr><td>venezuela</td><td>caracas</td></tr>
+                    <tr><td>vietnam</td><td>hanoi</td></tr>
+                    <tr><td>yemen</td><td>sana'a</td></tr>
+                    <tr><td>zambia</td><td>lusaka</td></tr>
+                    <tr><td>zimbabwe</td><td>harare</td></tr>
+                    
+                    
+                </tr>
+            </table>
+        </div>
+        <div style="display: none" id="sports-div"><br>
+            <h2><u>SPORTS</u></h2><br>
+            <h3>No. of players(in one team)</h3>
+            
+                <ol>
+                    <li>Badminton          - In single-1 and double-2</li>
+                    <li>Baseball           - 9</li>
+                    <li>basektball         - 5</li>
+                    <li>billiards          - 1</li>
+                    <li>boxing             - 1</li>
+                    <li>chess              - 1</li>
+                    <li>cricket            - 11</li>
+                    <li>croquet            - 3 or 6</li>
+                    <li>football           - 11</li>
+                    <li>golf               - not fixed</li>
+                    <li>hockey             - 11</li>
+                    <li>kabaddi            - 7</li>
+                    <li>kho kho            - 9</li>
+                    <li>lacrosse           - 10</li>
+                    <li>netball            - 7</li>
+                    <li>polo               - 4</li>
+                    <li>rugby football     - 15</li>
+                    <li>table tennis       - 1 and 2</li>
+                    <li>tennis             - 1 and 2</li>
+                    <li>volleyball         - 6</li>
+                    <li>water polo         - 7</li>
+                </ol>
+
+        <h3>Sports playground</h3>
+        <ol>
+            <li>Arena - horse riding/polo</li>
+            <li>board - table tennis</li>
+            <li>course - golf</li>
+            <li>court - Tennis, Badminton, Net Ball, Handball, Volleyball, Squash</li>
+            <li>diamond - baseball</li>
+            <li>field - football,hockey</li>
+            <li>mat - judo,karate,taikwondo</li>
+            <li>pitch - cricket</li>
+            <li>pool - swimming</li>
+            <li>ring - curling,ice hockey</li>
+            <li>track - athletics</li>
+            <li>velodrome - cycling</li>
+            
+        </ol>
+ 
+        <script src="index.js"></script>
+    </body>
+</html>
