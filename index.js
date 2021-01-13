@@ -1,6 +1,7 @@
 var x = document.getElementById("home-div");
 var y = document.getElementById("countries-div");
 var z = document.getElementById("sports-div");
+var w = document.getElementById("history-div");
 var active = 1;
 function toggleDiv(a) {
     console.log("done");
@@ -18,6 +19,10 @@ function toggleDiv(a) {
             z.style.display = "block";
             active = a;
             break;
+        case 4:
+            w.style.display = "block";
+            active = a;
+            break;
     }}
 function inActive() {
     switch (active) {
@@ -29,6 +34,9 @@ function inActive() {
             break;
         case 3:
             z.style.display = "none";
+            break;
+        case 4:
+            w.style.display="none";
             break;
     }
 }
